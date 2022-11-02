@@ -16,7 +16,7 @@ a:hover {
 }
 
 body {
-    background: url('images/2869216_5721.jpg') no-repeat center center fixed;
+    background: url('images/lightning-background.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
