@@ -1,0 +1,103 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a:hover {
+    color: rgb(0, 153, 255);
+}
+
+body {
+    background: url('/images/2869216_5721.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    width: 480px;
+    max-width: calc(100vw - 10px);
+    background-color: rgba(255, 255, 255, 0.623);
+    box-shadow: rgba(255, 255, 255, 0.8) 10px 10px 100px;
+    border-width: 17px;
+    border-color: white;
+    border-style: dashed solid dashed solid;
+}
+
+.head,
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head,
+.links {
+    text-align: center;
+}
+
+img {
+    width: 170px;
+    height: 170px;
+    padding: 3px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.profile-image {
+    margin-top: -60px;
+}
+
+/* Contact links */
+
+ul {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+li {
+    display: inline;
+    padding: 3px;
+}
+
+.head,
+.about {
+    margin-bottom: 10%;
+}
+
+.content {
+    padding: 5% 10%;
+    border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+.about,
+.links,
+.name-headline {
+    padding: 5px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+
+.about {
+    text-align: justify;
+}
